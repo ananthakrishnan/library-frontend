@@ -1,20 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
-import Books from "./Books";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Books from "./Books";
 import Student from "./Students";
-import Navbar from "./Navbar";
-
+import "./index.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode> 
+  <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={ <Books /> }/>
-        <Route path="/students" element={ <Student /> }/>
+        <Route path="/" element={<Books />} />
+        <Route path="/students" element={<Student />} />
       </Routes>
     </BrowserRouter>
-  </React.StrictMode>,
+  </React.StrictMode>
 );
