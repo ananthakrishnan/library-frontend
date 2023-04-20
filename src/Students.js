@@ -1,8 +1,10 @@
-import { Form, Grid, Segment } from "semantic-ui-react";
 import React from "react";
+import { Form, Grid, Segment } from "semantic-ui-react";
+import Navbar from "./Navbar";
 const Student = () => {
   return (
     <>
+      <Navbar />
       <Grid columns="equal">
         <Grid.Column>
           <Segment>
