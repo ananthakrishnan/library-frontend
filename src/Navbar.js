@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className="column">
           <div className="ui menu">
             <NavLink to="/students" className="item">
-              Students
+              STUDENT
             </NavLink>
             <NavLink to="/" className="item">
               BOOKS
