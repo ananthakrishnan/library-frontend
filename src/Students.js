@@ -12,20 +12,11 @@ const Student = () => {
               <div className="ui form pb-15 stackable ">
                 <div className="three fields">
                   <div className="field">
-                    <label>Book Name</label>
-                    <input type="text" placeholder="First Name" />
-                  </div>
-
-                  <div className="field">
-                    <label>Author</label>
-                    <input type="text" placeholder="Middle Name" />
+                    <label>Student Name</label>
+                    <input type="text" placeholder="Student Name" />
                   </div>
                   <div class="field">
-                    <label>Short Description</label>
-                    <textarea rows="2"></textarea>
-                  </div>
-                  <div class="field">
-                    <label>Detailed Description</label>
+                    <label>Address</label>
                     <textarea rows="4"></textarea>
                   </div>
                 </div>
