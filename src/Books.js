@@ -26,6 +26,8 @@ function Books() {
                       John is an interesting boy but sometimes you don't really
                       have enough room to describe everything you'd like
                     </td>
+                    <button class="ui primary button">Assign</button>
+                    <button class="ui button">Discard</button>
                   </tr>
                   <tr>
                     <td>Jamie</td>
@@ -34,6 +36,8 @@ function Books() {
                       Jamie is a kind girl but sometimes you don't really have
                       enough room to describe everything you'd like
                     </td>
+                    <button class="ui primary button">Assign</button>
+                    <button class="ui button">Discard</button>
                   </tr>
                   <tr>
                     <td>Jill</td>
@@ -42,6 +46,8 @@ function Books() {
                       Jill is an alright girl but sometimes you don't really
                       have enough room to describe everything you'd like
                     </td>
+                    <button class="ui primary button">Assign</button>
+                    <button class="ui button">Discard</button>
                   </tr>
 
                   <th colspan="4" className="rounded-3xl"></th>
