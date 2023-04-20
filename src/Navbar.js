@@ -6,11 +6,11 @@ const Navbar = () => {
       <div className="computer only row">
         <div className="column">
           <div className="ui menu">
-            <NavLink to="/students" className="item">
-              STUDENT
-            </NavLink>
             <NavLink to="/" className="item">
               BOOKS
+            </NavLink>
+            <NavLink to="/students" className="item">
+              STUDENT
             </NavLink>
           </div>
         </div>
