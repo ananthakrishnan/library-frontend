@@ -27,7 +27,7 @@ function Books() {
                       have enough room to describe everything you'd like
                     </td>
                     <button class="ui primary button">Assign</button>
-                    <button class="ui button">Discard</button>
+                    <button class="ui red button">Discard</button>
                   </tr>
                   <tr>
                     <td>Jamie</td>
@@ -37,7 +37,7 @@ function Books() {
                       enough room to describe everything you'd like
                     </td>
                     <button class="ui primary button">Assign</button>
-                    <button class="ui button">Discard</button>
+                    <button class="ui red button">Discard</button>
                   </tr>
                   <tr>
                     <td>Jill</td>
@@ -47,7 +47,7 @@ function Books() {
                       have enough room to describe everything you'd like
                     </td>
                     <button class="ui primary button">Assign</button>
-                    <button class="ui button">Discard</button>
+                    <button class="ui red button">Discard</button>
                   </tr>
 
                   <th colspan="4" className="rounded-3xl"></th>
